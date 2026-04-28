@@ -693,7 +693,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);font-family:var(--fb)
       <svg viewBox="0 0 24 24"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
       <span id="sync-dot" class="nocloud"></span>
     </button>
-    <button class="ibtn" title="Hilfe &amp; Gesten" onclick="openModal('modal-help')">
+    <button class="ibtn" title="Hilfe & Gesten" onclick="openModal('modal-help')">
       <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
     </button>
   </div>
@@ -843,7 +843,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);font-family:var(--fb)
 <div class="moverlay" id="modal-export" onclick="maybeCloseModal(event,'modal-export')">
   <div class="msheet">
     <div class="mhandle"></div>
-    <div class="mtitle" style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><polyline points="16 7 12 3 8 7"/><line x1="12" y1="3" x2="12" y2="12"/></svg> Export &amp; Import</div>
+    <div class="mtitle" style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><polyline points="16 7 12 3 8 7"/><line x1="12" y1="3" x2="12" y2="12"/></svg> Export & Import</div>
     <div class="exp-grid">
       <div class="exp-card" onclick="exportJSON(false)">
         <div class="ec-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="11" x2="12" y2="17"/><polyline points="9 14 12 17 15 14"/></svg></div>
@@ -905,14 +905,14 @@ html,body{height:100%;overflow:hidden;background:var(--bg);font-family:var(--fb)
 <div class="moverlay" id="modal-help" onclick="maybeCloseModal(event,'modal-help')">
   <div class="msheet">
     <div class="mhandle"></div>
-    <div class="mtitle" style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Hilfe &amp; Gesten</div>
+    <div class="mtitle" style="display:flex;align-items:center;gap:10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Hilfe & Gesten</div>
     <div class="hs">
       <h3>Touch-Gesten</h3>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div><div class="hd"><strong>Tippen</strong>Aktionsmenü öffnen (Status ändern)</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 16 16 12"/><line x1="12" y1="16" x2="8" y2="12"/></svg></div><div class="hd"><strong>Lang drücken (0,5 s)</strong>Direkt als „Wichtig!" markieren</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div><div class="hd"><strong>Wischen nach rechts</strong>Artikel als „Eingepackt ✓" markieren</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg></div><div class="hd"><strong>Wischen nach links</strong>Artikel in den Papierkorb verschieben</div></div>
-      <div class="hr"><div class="hg">⠿</div><div class="hd"><strong>Drag-Handle halten &amp; ziehen</strong>Artikel in eine andere Kategorie verschieben oder kopieren – Handle am rechten Rand jedes Artikels</div></div>
+      <div class="hr"><div class="hg">⠿</div><div class="hd"><strong>Drag-Handle halten & ziehen</strong>Artikel in eine andere Kategorie verschieben oder kopieren – Handle am rechten Rand jedes Artikels</div></div>
     </div>
     <div class="hs">
       <h3>Artikel-Status</h3>
@@ -927,14 +927,14 @@ html,body{height:100%;overflow:hidden;background:var(--bg);font-family:var(--fb)
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg></div><div class="hd"><strong>Cloud-Sync</strong>Mit Firebase-Verbindung und Raumcode sind alle Geräte live synchronisiert. Über den Sync-Button (↑) einrichten.</div></div>
     </div>
     <div class="hs">
-      <h3>Kategorien &amp; Listen</h3>
+      <h3>Kategorien & Listen</h3>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div><div class="hd"><strong>Neue Kategorie</strong>Knopf in der Kopfzeile</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div><div class="hd"><strong>Kategorie umbenennen</strong>Direkt auf den Namen tippen</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div><div class="hd"><strong>Urlaubsliste wechseln</strong>Auf den Namen im Header tippen</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.87"/></svg></div><div class="hd"><strong>Alle zurücksetzen</strong>Rückwärts-Pfeil-Button in der Urlaubsverwaltung – setzt alle Artikel auf „Aktiv". Ideal vor dem nächsten Urlaub.</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/></svg></div><div class="hd"><strong>Vorlagen</strong>Speichere eine Liste als Vorlage und erstelle damit in Sekunden neue Urlaube mit denselben Kategorien und Artikeln.</div></div>
       <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div><div class="hd"><strong>Gesamtübersicht</strong>Im Export-Menü – zeigt Fortschritt aller Listen auf einen Blick.</div></div>
-      <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></div><div class="hd"><strong>Liste duplizieren</strong>Kopiert alle Kategorien &amp; Artikel, setzt alle Zustände auf „Aktiv" zurück</div></div>
+      <div class="hr"><div class="hg"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tmut)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></div><div class="hd"><strong>Liste duplizieren</strong>Kopiert alle Kategorien & Artikel, setzt alle Zustände auf „Aktiv" zurück</div></div>
     </div>
     <div class="hs">
       <h3>Auto-Kategorisierung</h3>
@@ -1042,7 +1042,7 @@ service cloud.firestore {
       <p style="font-size:14px;font-weight:600;margin-bottom:8px">Firebase-Config einfügen:</p>
       <textarea class="mtextarea" id="fb-config-inp" placeholder='Hier den firebaseConfig-Block einfügen, z.B.:
 {
-  "apiKey": "AIza...",
+  "apiKey": "...",
   "authDomain": "mein-projekt.firebaseapp.com",
   "projectId": "mein-projekt",
   "storageBucket": "mein-projekt.appspot.com",
@@ -1094,7 +1094,7 @@ service cloud.firestore {
       </div>
 
       <hr style="border:none;border-top:1.5px solid var(--border);margin:18px 0">
-      <button class="mbtn dng" style="width:100%" onclick="disconnectFirebase()">Firebase trennen &amp; lokal weiterarbeiten</button>
+      <button class="mbtn dng" style="width:100%" onclick="disconnectFirebase()">Firebase trennen & lokal weiterarbeiten</button>
     </div>
 
   </div>
@@ -1285,7 +1285,7 @@ function uid() {
 
 // ── Firebase config (eingebettet) ──────────────────────────────────
 const PRESET_FIREBASE_CONFIG = {
-  apiKey: "AIzaSyBQJ7f2Cse5BU3JtcziUvfeBljQofMOm2s",
+  apiKey: "",
   authDomain: "empackit-e1b9b.firebaseapp.com",
   projectId: "empackit-e1b9b",
   storageBucket: "empackit-e1b9b.firebasestorage.app",
@@ -1903,7 +1903,7 @@ function buildOrUpdateItem(item, catId, existing) {
         <span class="item-qnum">1</span>
         <button class="item-qbtn" data-delta="1">+</button>
       </div>
-      <div class="drag-handle" title="Halten &amp; ziehen zum Verschieben">
+      <div class="drag-handle" title="Halten & ziehen zum Verschieben">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="5" r="1" fill="currentColor"/><circle cx="9" cy="12" r="1" fill="currentColor"/><circle cx="9" cy="19" r="1" fill="currentColor"/><circle cx="15" cy="5" r="1" fill="currentColor"/><circle cx="15" cy="12" r="1" fill="currentColor"/><circle cx="15" cy="19" r="1" fill="currentColor"/></svg>
       </div>
     </div>
@@ -3352,7 +3352,7 @@ function toast(msg) {
 // UTILITY
 // ============================================================
 function esc(str) {
-  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  return String(str).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'&quot;');
 }
 
 // ============================================================
